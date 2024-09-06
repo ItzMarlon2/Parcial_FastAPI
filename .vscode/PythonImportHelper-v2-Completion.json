@@ -208,6 +208,22 @@
         "documentation": {}
     },
     {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "op",
         "importPath": "alembic",
         "description": "alembic",
@@ -409,6 +425,30 @@
         "documentation": {}
     },
     {
+        "label": "ReservationORM",
+        "importPath": "app.models.models",
+        "description": "app.models.models",
+        "isExtraImport": true,
+        "detail": "app.models.models",
+        "documentation": {}
+    },
+    {
+        "label": "ClientORM",
+        "importPath": "app.models.models",
+        "description": "app.models.models",
+        "isExtraImport": true,
+        "detail": "app.models.models",
+        "documentation": {}
+    },
+    {
+        "label": "ReservationORM",
+        "importPath": "app.models.models",
+        "description": "app.models.models",
+        "isExtraImport": true,
+        "detail": "app.models.models",
+        "documentation": {}
+    },
+    {
         "label": "Base",
         "importPath": "app.config.config",
         "description": "app.config.config",
@@ -418,6 +458,14 @@
     },
     {
         "label": "Base",
+        "importPath": "app.config.config",
+        "description": "app.config.config",
+        "isExtraImport": true,
+        "detail": "app.config.config",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
         "importPath": "app.config.config",
         "description": "app.config.config",
         "isExtraImport": true,
@@ -459,6 +507,30 @@
     },
     {
         "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
         "isExtraImport": true,
@@ -538,6 +610,38 @@
         "documentation": {}
     },
     {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "APIRouter",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -570,6 +674,54 @@
         "documentation": {}
     },
     {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "ReservationRequest",
+        "importPath": "app.schemas.reservations_schemas",
+        "description": "app.schemas.reservations_schemas",
+        "isExtraImport": true,
+        "detail": "app.schemas.reservations_schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ReservationDTO",
+        "importPath": "app.schemas.reservations_schemas",
+        "description": "app.schemas.reservations_schemas",
+        "isExtraImport": true,
+        "detail": "app.schemas.reservations_schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ReservationRequest",
+        "importPath": "app.schemas.reservations_schemas",
+        "description": "app.schemas.reservations_schemas",
+        "isExtraImport": true,
+        "detail": "app.schemas.reservations_schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ReservationRequest",
+        "importPath": "app.schemas.reservations_schemas",
+        "description": "app.schemas.reservations_schemas",
+        "isExtraImport": true,
+        "detail": "app.schemas.reservations_schemas",
+        "documentation": {}
+    },
+    {
         "label": "create_client_service",
         "importPath": "app.services.client_services",
         "description": "app.services.client_services",
@@ -594,6 +746,30 @@
         "documentation": {}
     },
     {
+        "label": "create_reservation_service",
+        "importPath": "app.services.reservation_services",
+        "description": "app.services.reservation_services",
+        "isExtraImport": true,
+        "detail": "app.services.reservation_services",
+        "documentation": {}
+    },
+    {
+        "label": "delete_reservation_service",
+        "importPath": "app.services.reservation_services",
+        "description": "app.services.reservation_services",
+        "isExtraImport": true,
+        "detail": "app.services.reservation_services",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_reservations_service",
+        "importPath": "app.services.reservation_services",
+        "description": "app.services.reservation_services",
+        "isExtraImport": true,
+        "detail": "app.services.reservation_services",
+        "documentation": {}
+    },
+    {
         "label": "BaseModel",
         "importPath": "pydantic",
         "description": "pydantic",
@@ -639,14 +815,6 @@
         "description": "pydantic",
         "isExtraImport": true,
         "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "date",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
         "documentation": {}
     },
     {
@@ -674,7 +842,39 @@
         "documentation": {}
     },
     {
+        "label": "create_reservation",
+        "importPath": "app.repositories.reservations_repository",
+        "description": "app.repositories.reservations_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.reservations_repository",
+        "documentation": {}
+    },
+    {
+        "label": "delete_reservation",
+        "importPath": "app.repositories.reservations_repository",
+        "description": "app.repositories.reservations_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.reservations_repository",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_reservations",
+        "importPath": "app.repositories.reservations_repository",
+        "description": "app.repositories.reservations_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.reservations_repository",
+        "documentation": {}
+    },
+    {
         "label": "client_routes",
+        "importPath": "app.routes",
+        "description": "app.routes",
+        "isExtraImport": true,
+        "detail": "app.routes",
+        "documentation": {}
+    },
+    {
+        "label": "reservation_routes",
         "importPath": "app.routes",
         "description": "app.routes",
         "isExtraImport": true,
@@ -1001,7 +1201,7 @@
         "kind": 2,
         "importPath": "app.repositories.client_repository",
         "description": "app.repositories.client_repository",
-        "peekOfCode": "def get_all_clients(db:Session) -> List[ClientORM]:\n    return db.query(ClientORM).all()\ndef create_client(db:Session, client:ClientRequest)->ClientORM:\n    db_client = ClientORM(\n        full_name=client.full_name,\n        phone_number= client.phone_number,\n        email= client.email,\n    )\n    db.add(db_client)\n    db.commit()",
+        "peekOfCode": "def get_all_clients(db:Session) -> List[ClientORM]:\n    return db.query(ClientORM).all()\ndef create_client(db:Session, client:ClientRequest)->ClientORM:\n    existing_client=db.query(ClientORM).filter(\n        (ClientORM.phone_number == client.phone_number) |\n        (ClientORM.email == client.email)\n    ).first()\n    if existing_client:\n        conflict_field = 'número de teléfono' if existing_client.phone_number == client.phone_number else 'correo electrónico'\n        raise HTTPException(status_code=400, detail=f\"Ya existe un cliente con ese {conflict_field}.\")",
         "detail": "app.repositories.client_repository",
         "documentation": {}
     },
@@ -1010,7 +1210,7 @@
         "kind": 2,
         "importPath": "app.repositories.client_repository",
         "description": "app.repositories.client_repository",
-        "peekOfCode": "def create_client(db:Session, client:ClientRequest)->ClientORM:\n    db_client = ClientORM(\n        full_name=client.full_name,\n        phone_number= client.phone_number,\n        email= client.email,\n    )\n    db.add(db_client)\n    db.commit()\n    db.refresh(db_client)\n    return db_client",
+        "peekOfCode": "def create_client(db:Session, client:ClientRequest)->ClientORM:\n    existing_client=db.query(ClientORM).filter(\n        (ClientORM.phone_number == client.phone_number) |\n        (ClientORM.email == client.email)\n    ).first()\n    if existing_client:\n        conflict_field = 'número de teléfono' if existing_client.phone_number == client.phone_number else 'correo electrónico'\n        raise HTTPException(status_code=400, detail=f\"Ya existe un cliente con ese {conflict_field}.\")\n    db_client = ClientORM(\n        full_name=client.full_name,",
         "detail": "app.repositories.client_repository",
         "documentation": {}
     },
@@ -1019,8 +1219,35 @@
         "kind": 2,
         "importPath": "app.repositories.client_repository",
         "description": "app.repositories.client_repository",
-        "peekOfCode": "def delete_client(uid:int, db:Session)->bool:\n    client = db.query(ClientORM).filter(ClientORM.id == uid).first()\n    if not client:\n        raise HTTPException(status_code=404, detail=\"Cliente no encontrado\")\n    db.delete(client)\n    db.commit()\n    return True",
+        "peekOfCode": "def delete_client(uid:int, db:Session)->bool:\n    client = db.query(ClientORM).filter(ClientORM.id == uid).first()\n    if not client:\n        raise HTTPException(status_code=404, detail=\"Cliente no encontrado\")\n    reservation = db.query(ReservationORM).filter(ReservationORM.client_id== client.id).first()\n    if reservation is not None:\n        raise HTTPException(status_code=400, detail=f\"No se puede eliminar el cliente porque tiene reservaciones asociadas. ID de reservación: {reservation.id}\")\n    db.delete(client)\n    db.commit()\n    return True",
         "detail": "app.repositories.client_repository",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_reservations",
+        "kind": 2,
+        "importPath": "app.repositories.reservations_repository",
+        "description": "app.repositories.reservations_repository",
+        "peekOfCode": "def get_all_reservations(db:Session)->List[ReservationORM]:\n    return db.query(ReservationORM).all()\ndef create_reservation(db:Session, reser:ReservationRequest)->ReservationORM:\n    existing_code = db.query(ReservationORM).filter(ReservationORM.reservation_code == reser.reservation_code).first()\n    existing_cliente = db.query(ClientORM).filter(ClientORM.id == reser.client_id).first()\n    active_reservations_count  = db.query(ReservationORM).filter(ReservationORM.client_id == reser.client_id).count()\n    if existing_cliente is None:\n        raise HTTPException(status_code=404, detail=\"Cliente no encontrado, no se puede crear la reserva.\")\n    if active_reservations_count  >= 5:\n        raise HTTPException(status_code=400, detail=\"Se ha alcanzado el límite máximo de reservas por cliente (5 reservas activas).\")",
+        "detail": "app.repositories.reservations_repository",
+        "documentation": {}
+    },
+    {
+        "label": "create_reservation",
+        "kind": 2,
+        "importPath": "app.repositories.reservations_repository",
+        "description": "app.repositories.reservations_repository",
+        "peekOfCode": "def create_reservation(db:Session, reser:ReservationRequest)->ReservationORM:\n    existing_code = db.query(ReservationORM).filter(ReservationORM.reservation_code == reser.reservation_code).first()\n    existing_cliente = db.query(ClientORM).filter(ClientORM.id == reser.client_id).first()\n    active_reservations_count  = db.query(ReservationORM).filter(ReservationORM.client_id == reser.client_id).count()\n    if existing_cliente is None:\n        raise HTTPException(status_code=404, detail=\"Cliente no encontrado, no se puede crear la reserva.\")\n    if active_reservations_count  >= 5:\n        raise HTTPException(status_code=400, detail=\"Se ha alcanzado el límite máximo de reservas por cliente (5 reservas activas).\")\n    if existing_code:\n        raise HTTPException(status_code=400, detail=f\"Ya existe una reservación con ese código: {existing_code.reservation_code}.\")",
+        "detail": "app.repositories.reservations_repository",
+        "documentation": {}
+    },
+    {
+        "label": "delete_reservation",
+        "kind": 2,
+        "importPath": "app.repositories.reservations_repository",
+        "description": "app.repositories.reservations_repository",
+        "peekOfCode": "def delete_reservation(uid:int, db:Session)->bool:\n    reser=db.query(ReservationORM).filter(ReservationORM.id == uid).first()\n    if not reser:\n        raise HTTPException(status_code=404, detail=\"Reservación no encontrada\")\n    db.delete(reser)\n    db.commit()\n    return True",
+        "detail": "app.repositories.reservations_repository",
         "documentation": {}
     },
     {
@@ -1037,7 +1264,7 @@
         "kind": 2,
         "importPath": "app.routes.client_routes",
         "description": "app.routes.client_routes",
-        "peekOfCode": "def create_client(client:ClientRequest, db:Session = Depends(get_db)):\n    create_client = create_client_service(client, db)\n    if not create_client:\n        raise HTTPException(status_code=404, detail=\"NO SE HA PODIDO CREAR EL CLIENTE\")\n    return create_client\n@router.delete('/{uid}', response_model=dict)\ndef delete_client(uid:int, db:Session = Depends(get_db)):\n    success = delete_client_service(uid, db)\n    print(success)\n    if not success:",
+        "peekOfCode": "def create_client(client:ClientRequest, db:Session = Depends(get_db)):\n    create_client = create_client_service(client, db)\n    if not create_client:\n        raise HTTPException(status_code=404, detail=\"NO SE HA PODIDO CREAR EL CLIENTE\")\n    return create_client\n@router.delete('clients/{uid}', response_model=dict)\ndef delete_client(uid:int, db:Session = Depends(get_db)):\n    success = delete_client_service(uid, db)\n    print(success)\n    if not success:",
         "detail": "app.routes.client_routes",
         "documentation": {}
     },
@@ -1057,6 +1284,42 @@
         "description": "app.routes.client_routes",
         "peekOfCode": "router = APIRouter()\n@router.get('/clients', response_model=List[ClientDTO])\ndef get_clients(db:Session = Depends(get_db)):\n    clients=get_all_clients_service(db)\n    if not clients:\n        raise HTTPException(status_code=404, detail=\"NO HAY CLIENTES\")\n    return clients\n@router.post('/clients', response_model=ClientDTO)\ndef create_client(client:ClientRequest, db:Session = Depends(get_db)):\n    create_client = create_client_service(client, db)",
         "detail": "app.routes.client_routes",
+        "documentation": {}
+    },
+    {
+        "label": "get_reservations",
+        "kind": 2,
+        "importPath": "app.routes.reservation_routes",
+        "description": "app.routes.reservation_routes",
+        "peekOfCode": "def get_reservations(db:Session = Depends(get_db)):\n    resers = get_all_reservations_service(db)\n    if not resers:\n        raise HTTPException(status_code=404, detail=\"NO HAY RESERVACIONES\")\n    return resers\n@router.post('/reservations', response_model=ReservationDTO)\ndef create_reservation(reser:ReservationRequest, db:Session = Depends(get_db)):\n    create_reservation = create_reservation_service(reser, db)\n    if not create_reservation:\n        raise HTTPException(status_code=404, detail=\"NO SE HA PODIDO CREAR LA RESERVACIÓN\")",
+        "detail": "app.routes.reservation_routes",
+        "documentation": {}
+    },
+    {
+        "label": "create_reservation",
+        "kind": 2,
+        "importPath": "app.routes.reservation_routes",
+        "description": "app.routes.reservation_routes",
+        "peekOfCode": "def create_reservation(reser:ReservationRequest, db:Session = Depends(get_db)):\n    create_reservation = create_reservation_service(reser, db)\n    if not create_reservation:\n        raise HTTPException(status_code=404, detail=\"NO SE HA PODIDO CREAR LA RESERVACIÓN\")\n    return create_reservation\n@router.delete('reservations/{uid}', response_model=dict)\ndef delete_reservation(uid:int, db:Session = Depends(get_db)):\n    success = delete_reservation_service(uid, db)\n    if not success:\n        raise HTTPException(status_code=404, detail=\"RESERVACIÓN NO ENCONTRADA\")",
+        "detail": "app.routes.reservation_routes",
+        "documentation": {}
+    },
+    {
+        "label": "delete_reservation",
+        "kind": 2,
+        "importPath": "app.routes.reservation_routes",
+        "description": "app.routes.reservation_routes",
+        "peekOfCode": "def delete_reservation(uid:int, db:Session = Depends(get_db)):\n    success = delete_reservation_service(uid, db)\n    if not success:\n        raise HTTPException(status_code=404, detail=\"RESERVACIÓN NO ENCONTRADA\")\n    return {\"detail\": \"Reservación Eliminada Correctamente\"}",
+        "detail": "app.routes.reservation_routes",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.routes.reservation_routes",
+        "description": "app.routes.reservation_routes",
+        "peekOfCode": "router = APIRouter()\n@router.get('/reservations', response_model=List[ReservationDTO])\ndef get_reservations(db:Session = Depends(get_db)):\n    resers = get_all_reservations_service(db)\n    if not resers:\n        raise HTTPException(status_code=404, detail=\"NO HAY RESERVACIONES\")\n    return resers\n@router.post('/reservations', response_model=ReservationDTO)\ndef create_reservation(reser:ReservationRequest, db:Session = Depends(get_db)):\n    create_reservation = create_reservation_service(reser, db)",
+        "detail": "app.routes.reservation_routes",
         "documentation": {}
     },
     {
@@ -1123,11 +1386,38 @@
         "documentation": {}
     },
     {
+        "label": "get_all_reservations_service",
+        "kind": 2,
+        "importPath": "app.services.reservation_services",
+        "description": "app.services.reservation_services",
+        "peekOfCode": "def get_all_reservations_service(db:Session):\n    return get_all_reservations(db)\ndef create_reservation_service(db:Session, reser:ReservationRequest):\n    return create_reservation(reser, db)\ndef delete_reservation_service(uid:int, db:Session):\n    return delete_reservation(uid, db)",
+        "detail": "app.services.reservation_services",
+        "documentation": {}
+    },
+    {
+        "label": "create_reservation_service",
+        "kind": 2,
+        "importPath": "app.services.reservation_services",
+        "description": "app.services.reservation_services",
+        "peekOfCode": "def create_reservation_service(db:Session, reser:ReservationRequest):\n    return create_reservation(reser, db)\ndef delete_reservation_service(uid:int, db:Session):\n    return delete_reservation(uid, db)",
+        "detail": "app.services.reservation_services",
+        "documentation": {}
+    },
+    {
+        "label": "delete_reservation_service",
+        "kind": 2,
+        "importPath": "app.services.reservation_services",
+        "description": "app.services.reservation_services",
+        "peekOfCode": "def delete_reservation_service(uid:int, db:Session):\n    return delete_reservation(uid, db)",
+        "detail": "app.services.reservation_services",
+        "documentation": {}
+    },
+    {
         "label": "app",
         "kind": 5,
         "importPath": "app.main",
         "description": "app.main",
-        "peekOfCode": "app = FastAPI() # type: ignore\napp.include_router(client_routes.router\n                   , prefix='/clients',\n                   tags=[\"Clients\"])\n@app.get(\"/\")\nasync def root():\n    return {\"Parcial 1: Marlon Campo - 240220231004\"}",
+        "peekOfCode": "app = FastAPI() # type: ignore\napp.include_router(client_routes.router\n                   , prefix='/clients',\n                   tags=[\"Clients\"])\napp.include_router(reservation_routes.router\n                   , prefix='/reservations',\n                   tags=[\"Reservations\"])\n@app.get(\"/\")\nasync def root():\n    return {\"Parcial 1: Marlon Campo - 240220231004\"}",
         "detail": "app.main",
         "documentation": {}
     }

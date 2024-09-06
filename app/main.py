@@ -1,11 +1,15 @@
 from fastapi import FastAPI
-from app.routes import client_routes
+from app.routes import client_routes, reservation_routes
 
 app = FastAPI() # type: ignore
 
 app.include_router(client_routes.router
                    , prefix='/clients',
                    tags=["Clients"])
+
+app.include_router(reservation_routes.router
+                   , prefix='/reservations',
+                   tags=["Reservations"])
 
 @app.get("/")
 async def root():

@@ -23,7 +23,7 @@ def create_client(client:ClientRequest, db:Session = Depends(get_db)):
         raise HTTPException(status_code=404, detail="NO SE HA PODIDO CREAR EL CLIENTE")
     return create_client
 
-@router.delete('/{uid}', response_model=dict)
+@router.delete('clients/{uid}', response_model=dict)
 def delete_client(uid:int, db:Session = Depends(get_db)):
     success = delete_client_service(uid, db)
     print(success)
