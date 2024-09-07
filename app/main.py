@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from app.routes import client_routes, reservation_routes
+from app.config.config import init_db
 
 app = FastAPI() # type: ignore
 
@@ -14,3 +15,5 @@ app.include_router(reservation_routes.router
 @app.get("/")
 async def root():
     return {"Parcial 1: Marlon Campo - 240220231004"}
+
+init_db()

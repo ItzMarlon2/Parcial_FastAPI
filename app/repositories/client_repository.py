@@ -1,4 +1,5 @@
-from app.models.models import ClientORM, ReservationORM
+from app.models.client_model import ClientORM
+from app.models.reservation_model import ReservationORM
 from typing import List
 from sqlalchemy.orm import Session
 from app.schemas.client_schemas import ClientRequest

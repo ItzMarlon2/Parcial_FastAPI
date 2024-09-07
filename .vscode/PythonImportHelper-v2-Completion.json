@@ -32,166 +32,6 @@
         "documentation": {}
     },
     {
-        "label": "Sequence",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Union",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Sequence",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Union",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Sequence",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Union",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Sequence",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Union",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Sequence",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Union",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Sequence",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Union",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Sequence",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Union",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Sequence",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Union",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Sequence",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Union",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Sequence",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Union",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
         "label": "List",
         "importPath": "typing",
         "description": "typing",
@@ -221,86 +61,6 @@
         "description": "typing",
         "isExtraImport": true,
         "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "op",
-        "importPath": "alembic",
-        "description": "alembic",
-        "isExtraImport": true,
-        "detail": "alembic",
-        "documentation": {}
-    },
-    {
-        "label": "op",
-        "importPath": "alembic",
-        "description": "alembic",
-        "isExtraImport": true,
-        "detail": "alembic",
-        "documentation": {}
-    },
-    {
-        "label": "op",
-        "importPath": "alembic",
-        "description": "alembic",
-        "isExtraImport": true,
-        "detail": "alembic",
-        "documentation": {}
-    },
-    {
-        "label": "op",
-        "importPath": "alembic",
-        "description": "alembic",
-        "isExtraImport": true,
-        "detail": "alembic",
-        "documentation": {}
-    },
-    {
-        "label": "op",
-        "importPath": "alembic",
-        "description": "alembic",
-        "isExtraImport": true,
-        "detail": "alembic",
-        "documentation": {}
-    },
-    {
-        "label": "op",
-        "importPath": "alembic",
-        "description": "alembic",
-        "isExtraImport": true,
-        "detail": "alembic",
-        "documentation": {}
-    },
-    {
-        "label": "op",
-        "importPath": "alembic",
-        "description": "alembic",
-        "isExtraImport": true,
-        "detail": "alembic",
-        "documentation": {}
-    },
-    {
-        "label": "op",
-        "importPath": "alembic",
-        "description": "alembic",
-        "isExtraImport": true,
-        "detail": "alembic",
-        "documentation": {}
-    },
-    {
-        "label": "op",
-        "importPath": "alembic",
-        "description": "alembic",
-        "isExtraImport": true,
-        "detail": "alembic",
-        "documentation": {}
-    },
-    {
-        "label": "op",
-        "importPath": "alembic",
-        "description": "alembic",
-        "isExtraImport": true,
-        "detail": "alembic",
         "documentation": {}
     },
     {
@@ -385,7 +145,15 @@
         "documentation": {}
     },
     {
-        "label": "ForeignKey",
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -394,6 +162,22 @@
     },
     {
         "label": "Date",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -410,42 +194,58 @@
     },
     {
         "label": "*",
-        "importPath": "app.models.models",
-        "description": "app.models.models",
+        "importPath": "app.models.client_model",
+        "description": "app.models.client_model",
         "isExtraImport": true,
-        "detail": "app.models.models",
+        "detail": "app.models.client_model",
         "documentation": {}
     },
     {
         "label": "ClientORM",
-        "importPath": "app.models.models",
-        "description": "app.models.models",
+        "importPath": "app.models.client_model",
+        "description": "app.models.client_model",
         "isExtraImport": true,
-        "detail": "app.models.models",
-        "documentation": {}
-    },
-    {
-        "label": "ReservationORM",
-        "importPath": "app.models.models",
-        "description": "app.models.models",
-        "isExtraImport": true,
-        "detail": "app.models.models",
+        "detail": "app.models.client_model",
         "documentation": {}
     },
     {
         "label": "ClientORM",
-        "importPath": "app.models.models",
-        "description": "app.models.models",
+        "importPath": "app.models.client_model",
+        "description": "app.models.client_model",
         "isExtraImport": true,
-        "detail": "app.models.models",
+        "detail": "app.models.client_model",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "app.models.reservation_model",
+        "description": "app.models.reservation_model",
+        "isExtraImport": true,
+        "detail": "app.models.reservation_model",
         "documentation": {}
     },
     {
         "label": "ReservationORM",
-        "importPath": "app.models.models",
-        "description": "app.models.models",
+        "importPath": "app.models.reservation_model",
+        "description": "app.models.reservation_model",
         "isExtraImport": true,
-        "detail": "app.models.models",
+        "detail": "app.models.reservation_model",
+        "documentation": {}
+    },
+    {
+        "label": "ReservationORM",
+        "importPath": "app.models.reservation_model",
+        "description": "app.models.reservation_model",
+        "isExtraImport": true,
+        "detail": "app.models.reservation_model",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.config.config",
+        "description": "app.config.config",
+        "isExtraImport": true,
+        "detail": "app.config.config",
         "documentation": {}
     },
     {
@@ -474,6 +274,14 @@
     },
     {
         "label": "get_db",
+        "importPath": "app.config.config",
+        "description": "app.config.config",
+        "isExtraImport": true,
+        "detail": "app.config.config",
+        "documentation": {}
+    },
+    {
+        "label": "init_db",
         "importPath": "app.config.config",
         "description": "app.config.config",
         "isExtraImport": true,
@@ -499,6 +307,14 @@
     },
     {
         "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
         "isExtraImport": true,
@@ -884,217 +700,37 @@
     {
         "label": "upgrade",
         "kind": 2,
-        "importPath": "alembic.versions.1ea4c155788e_create_table_clients_and_reservations",
-        "description": "alembic.versions.1ea4c155788e_create_table_clients_and_reservations",
-        "peekOfCode": "def upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###",
-        "detail": "alembic.versions.1ea4c155788e_create_table_clients_and_reservations",
-        "documentation": {}
-    },
-    {
-        "label": "downgrade",
-        "kind": 2,
-        "importPath": "alembic.versions.1ea4c155788e_create_table_clients_and_reservations",
-        "description": "alembic.versions.1ea4c155788e_create_table_clients_and_reservations",
-        "peekOfCode": "def downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###",
-        "detail": "alembic.versions.1ea4c155788e_create_table_clients_and_reservations",
-        "documentation": {}
-    },
-    {
-        "label": "upgrade",
-        "kind": 2,
-        "importPath": "alembic.versions.348b0e1b3f6b_create_table_clients_and_reservations",
-        "description": "alembic.versions.348b0e1b3f6b_create_table_clients_and_reservations",
+        "importPath": "alembic.versions.227f8a8440bb_create_table_clients_and_reservations",
+        "description": "alembic.versions.227f8a8440bb_create_table_clients_and_reservations",
         "peekOfCode": "def upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('Clients',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('full_name', sa.String(), nullable=True),\n    sa.Column('phone_number', sa.String(), nullable=True),\n    sa.Column('email', sa.String(), nullable=True),\n    sa.PrimaryKeyConstraint('id'),\n    sa.UniqueConstraint('email'),\n    sa.UniqueConstraint('phone_number')",
-        "detail": "alembic.versions.348b0e1b3f6b_create_table_clients_and_reservations",
+        "detail": "alembic.versions.227f8a8440bb_create_table_clients_and_reservations",
         "documentation": {}
     },
     {
         "label": "downgrade",
         "kind": 2,
-        "importPath": "alembic.versions.348b0e1b3f6b_create_table_clients_and_reservations",
-        "description": "alembic.versions.348b0e1b3f6b_create_table_clients_and_reservations",
+        "importPath": "alembic.versions.227f8a8440bb_create_table_clients_and_reservations",
+        "description": "alembic.versions.227f8a8440bb_create_table_clients_and_reservations",
         "peekOfCode": "def downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_index(op.f('ix_Reservations_id'), table_name='Reservations')\n    op.drop_table('Reservations')\n    op.drop_index(op.f('ix_Clients_id'), table_name='Clients')\n    op.drop_index(op.f('ix_Clients_full_name'), table_name='Clients')\n    op.drop_table('Clients')\n    # ### end Alembic commands ###",
-        "detail": "alembic.versions.348b0e1b3f6b_create_table_clients_and_reservations",
+        "detail": "alembic.versions.227f8a8440bb_create_table_clients_and_reservations",
         "documentation": {}
     },
     {
         "label": "upgrade",
         "kind": 2,
-        "importPath": "alembic.versions.4613443f6f40_create_table_clients_and_reservations",
-        "description": "alembic.versions.4613443f6f40_create_table_clients_and_reservations",
+        "importPath": "alembic.versions.3821d729d7e3_create_table_clients_and_reservations",
+        "description": "alembic.versions.3821d729d7e3_create_table_clients_and_reservations",
         "peekOfCode": "def upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###",
-        "detail": "alembic.versions.4613443f6f40_create_table_clients_and_reservations",
+        "detail": "alembic.versions.3821d729d7e3_create_table_clients_and_reservations",
         "documentation": {}
     },
     {
         "label": "downgrade",
         "kind": 2,
-        "importPath": "alembic.versions.4613443f6f40_create_table_clients_and_reservations",
-        "description": "alembic.versions.4613443f6f40_create_table_clients_and_reservations",
+        "importPath": "alembic.versions.3821d729d7e3_create_table_clients_and_reservations",
+        "description": "alembic.versions.3821d729d7e3_create_table_clients_and_reservations",
         "peekOfCode": "def downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###",
-        "detail": "alembic.versions.4613443f6f40_create_table_clients_and_reservations",
-        "documentation": {}
-    },
-    {
-        "label": "upgrade",
-        "kind": 2,
-        "importPath": "alembic.versions.5506c974021b_create_table_clients_and_reservations",
-        "description": "alembic.versions.5506c974021b_create_table_clients_and_reservations",
-        "peekOfCode": "def upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###",
-        "detail": "alembic.versions.5506c974021b_create_table_clients_and_reservations",
-        "documentation": {}
-    },
-    {
-        "label": "downgrade",
-        "kind": 2,
-        "importPath": "alembic.versions.5506c974021b_create_table_clients_and_reservations",
-        "description": "alembic.versions.5506c974021b_create_table_clients_and_reservations",
-        "peekOfCode": "def downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###",
-        "detail": "alembic.versions.5506c974021b_create_table_clients_and_reservations",
-        "documentation": {}
-    },
-    {
-        "label": "upgrade",
-        "kind": 2,
-        "importPath": "alembic.versions.6ffc5f0588a4_create_table_clients_and_reservations",
-        "description": "alembic.versions.6ffc5f0588a4_create_table_clients_and_reservations",
-        "peekOfCode": "def upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###",
-        "detail": "alembic.versions.6ffc5f0588a4_create_table_clients_and_reservations",
-        "documentation": {}
-    },
-    {
-        "label": "downgrade",
-        "kind": 2,
-        "importPath": "alembic.versions.6ffc5f0588a4_create_table_clients_and_reservations",
-        "description": "alembic.versions.6ffc5f0588a4_create_table_clients_and_reservations",
-        "peekOfCode": "def downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###",
-        "detail": "alembic.versions.6ffc5f0588a4_create_table_clients_and_reservations",
-        "documentation": {}
-    },
-    {
-        "label": "upgrade",
-        "kind": 2,
-        "importPath": "alembic.versions.744593d10b5d_create_table_clients_and_reservations",
-        "description": "alembic.versions.744593d10b5d_create_table_clients_and_reservations",
-        "peekOfCode": "def upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###",
-        "detail": "alembic.versions.744593d10b5d_create_table_clients_and_reservations",
-        "documentation": {}
-    },
-    {
-        "label": "downgrade",
-        "kind": 2,
-        "importPath": "alembic.versions.744593d10b5d_create_table_clients_and_reservations",
-        "description": "alembic.versions.744593d10b5d_create_table_clients_and_reservations",
-        "peekOfCode": "def downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###",
-        "detail": "alembic.versions.744593d10b5d_create_table_clients_and_reservations",
-        "documentation": {}
-    },
-    {
-        "label": "upgrade",
-        "kind": 2,
-        "importPath": "alembic.versions.75bd9cce14c1_create_table_clients_and_reservations",
-        "description": "alembic.versions.75bd9cce14c1_create_table_clients_and_reservations",
-        "peekOfCode": "def upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###",
-        "detail": "alembic.versions.75bd9cce14c1_create_table_clients_and_reservations",
-        "documentation": {}
-    },
-    {
-        "label": "downgrade",
-        "kind": 2,
-        "importPath": "alembic.versions.75bd9cce14c1_create_table_clients_and_reservations",
-        "description": "alembic.versions.75bd9cce14c1_create_table_clients_and_reservations",
-        "peekOfCode": "def downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###",
-        "detail": "alembic.versions.75bd9cce14c1_create_table_clients_and_reservations",
-        "documentation": {}
-    },
-    {
-        "label": "upgrade",
-        "kind": 2,
-        "importPath": "alembic.versions.83b2e1b5ed9a_create_table_clients_and_reservations",
-        "description": "alembic.versions.83b2e1b5ed9a_create_table_clients_and_reservations",
-        "peekOfCode": "def upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###",
-        "detail": "alembic.versions.83b2e1b5ed9a_create_table_clients_and_reservations",
-        "documentation": {}
-    },
-    {
-        "label": "downgrade",
-        "kind": 2,
-        "importPath": "alembic.versions.83b2e1b5ed9a_create_table_clients_and_reservations",
-        "description": "alembic.versions.83b2e1b5ed9a_create_table_clients_and_reservations",
-        "peekOfCode": "def downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###",
-        "detail": "alembic.versions.83b2e1b5ed9a_create_table_clients_and_reservations",
-        "documentation": {}
-    },
-    {
-        "label": "upgrade",
-        "kind": 2,
-        "importPath": "alembic.versions.bbcf6f79e57c_create_table_clients_and_reservations",
-        "description": "alembic.versions.bbcf6f79e57c_create_table_clients_and_reservations",
-        "peekOfCode": "def upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###",
-        "detail": "alembic.versions.bbcf6f79e57c_create_table_clients_and_reservations",
-        "documentation": {}
-    },
-    {
-        "label": "downgrade",
-        "kind": 2,
-        "importPath": "alembic.versions.bbcf6f79e57c_create_table_clients_and_reservations",
-        "description": "alembic.versions.bbcf6f79e57c_create_table_clients_and_reservations",
-        "peekOfCode": "def downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###",
-        "detail": "alembic.versions.bbcf6f79e57c_create_table_clients_and_reservations",
-        "documentation": {}
-    },
-    {
-        "label": "upgrade",
-        "kind": 2,
-        "importPath": "alembic.versions.bc0979c3fa0b_create_table_clients_and_reservations",
-        "description": "alembic.versions.bc0979c3fa0b_create_table_clients_and_reservations",
-        "peekOfCode": "def upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###",
-        "detail": "alembic.versions.bc0979c3fa0b_create_table_clients_and_reservations",
-        "documentation": {}
-    },
-    {
-        "label": "downgrade",
-        "kind": 2,
-        "importPath": "alembic.versions.bc0979c3fa0b_create_table_clients_and_reservations",
-        "description": "alembic.versions.bc0979c3fa0b_create_table_clients_and_reservations",
-        "peekOfCode": "def downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###",
-        "detail": "alembic.versions.bc0979c3fa0b_create_table_clients_and_reservations",
-        "documentation": {}
-    },
-    {
-        "label": "upgrade",
-        "kind": 2,
-        "importPath": "alembic.versions.df1ebee9154a_create_table_clients_and_reservations",
-        "description": "alembic.versions.df1ebee9154a_create_table_clients_and_reservations",
-        "peekOfCode": "def upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###",
-        "detail": "alembic.versions.df1ebee9154a_create_table_clients_and_reservations",
-        "documentation": {}
-    },
-    {
-        "label": "downgrade",
-        "kind": 2,
-        "importPath": "alembic.versions.df1ebee9154a_create_table_clients_and_reservations",
-        "description": "alembic.versions.df1ebee9154a_create_table_clients_and_reservations",
-        "peekOfCode": "def downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###",
-        "detail": "alembic.versions.df1ebee9154a_create_table_clients_and_reservations",
-        "documentation": {}
-    },
-    {
-        "label": "upgrade",
-        "kind": 2,
-        "importPath": "alembic.versions.fc54dab2e80c_create_table_clients_and_reservations",
-        "description": "alembic.versions.fc54dab2e80c_create_table_clients_and_reservations",
-        "peekOfCode": "def upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###",
-        "detail": "alembic.versions.fc54dab2e80c_create_table_clients_and_reservations",
-        "documentation": {}
-    },
-    {
-        "label": "downgrade",
-        "kind": 2,
-        "importPath": "alembic.versions.fc54dab2e80c_create_table_clients_and_reservations",
-        "description": "alembic.versions.fc54dab2e80c_create_table_clients_and_reservations",
-        "peekOfCode": "def downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###",
-        "detail": "alembic.versions.fc54dab2e80c_create_table_clients_and_reservations",
+        "detail": "alembic.versions.3821d729d7e3_create_table_clients_and_reservations",
         "documentation": {}
     },
     {
@@ -1134,6 +770,15 @@
         "documentation": {}
     },
     {
+        "label": "init_db",
+        "kind": 2,
+        "importPath": "app.config.config",
+        "description": "app.config.config",
+        "peekOfCode": "def init_db():\n    Base.metadata.create_all(bind = engine)\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "app.config.config",
+        "documentation": {}
+    },
+    {
         "label": "get_db",
         "kind": 2,
         "importPath": "app.config.config",
@@ -1147,7 +792,7 @@
         "kind": 5,
         "importPath": "app.config.config",
         "description": "app.config.config",
-        "peekOfCode": "DATABASE_URL = os.getenv(\"DATABASE_URL\")\nengine = create_engine(DATABASE_URL)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "peekOfCode": "DATABASE_URL = os.getenv(\"DATABASE_URL\")\nengine = create_engine(DATABASE_URL)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()\ndef init_db():\n    Base.metadata.create_all(bind = engine)\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db",
         "detail": "app.config.config",
         "documentation": {}
     },
@@ -1156,7 +801,7 @@
         "kind": 5,
         "importPath": "app.config.config",
         "description": "app.config.config",
-        "peekOfCode": "engine = create_engine(DATABASE_URL)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "peekOfCode": "engine = create_engine(DATABASE_URL)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()\ndef init_db():\n    Base.metadata.create_all(bind = engine)\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:",
         "detail": "app.config.config",
         "documentation": {}
     },
@@ -1165,7 +810,7 @@
         "kind": 5,
         "importPath": "app.config.config",
         "description": "app.config.config",
-        "peekOfCode": "SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "peekOfCode": "SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()\ndef init_db():\n    Base.metadata.create_all(bind = engine)\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
         "detail": "app.config.config",
         "documentation": {}
     },
@@ -1174,26 +819,26 @@
         "kind": 5,
         "importPath": "app.config.config",
         "description": "app.config.config",
-        "peekOfCode": "Base = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "peekOfCode": "Base = declarative_base()\ndef init_db():\n    Base.metadata.create_all(bind = engine)\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
         "detail": "app.config.config",
         "documentation": {}
     },
     {
         "label": "ClientORM",
         "kind": 6,
-        "importPath": "app.models.models",
-        "description": "app.models.models",
-        "peekOfCode": "class ClientORM(Base):\n    __tablename__= 'Clients'\n    id = Column(Integer, primary_key=True, index=True)\n    full_name = Column(String, index=True)\n    phone_number = Column(String, unique=True)\n    email = Column(String, unique=True)\n    reservations = relationship(\"ReservationORM\", back_populates=\"client\")\nclass ReservationORM(Base):\n    __tablename__= 'Reservations'\n    id = Column(Integer, primary_key=True, index=True)",
-        "detail": "app.models.models",
+        "importPath": "app.models.client_model",
+        "description": "app.models.client_model",
+        "peekOfCode": "class ClientORM(Base):\n    __tablename__= 'Clients'\n    id = Column(Integer, primary_key=True, index=True)\n    full_name = Column(String, index=True)\n    phone_number = Column(String, unique=True)\n    email = Column(String, unique=True)\n    reservations = relationship(\"ReservationORM\", back_populates=\"client\")",
+        "detail": "app.models.client_model",
         "documentation": {}
     },
     {
         "label": "ReservationORM",
         "kind": 6,
-        "importPath": "app.models.models",
-        "description": "app.models.models",
+        "importPath": "app.models.reservation_model",
+        "description": "app.models.reservation_model",
         "peekOfCode": "class ReservationORM(Base):\n    __tablename__= 'Reservations'\n    id = Column(Integer, primary_key=True, index=True)\n    reservation_code = Column(String, unique=True)\n    date= Column(Date)\n    client_id = Column(Integer, ForeignKey(\"Clients.id\"))\n    client = relationship(\"ClientORM\", back_populates=\"reservations\")",
-        "detail": "app.models.models",
+        "detail": "app.models.reservation_model",
         "documentation": {}
     },
     {

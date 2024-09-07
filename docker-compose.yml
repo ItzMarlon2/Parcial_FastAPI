@@ -1,0 +1,27 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: postgres
+    environment:
+      - POSTGRES_USER=marlon
+      - POSTGRES_PASSWORD=123
+      - POSTGRES_DB=parcial
+    ports:
+      - "5432:5432"
+    restart: always
+    volumes:
+      - "parcial_data:/var/lib/postgresql/data"
+
+  fastapi:
+    image: itzmarlon13/parcial_electiva3
+    container_name: parcial
+    environment:
+      - DATABASE_URL=postgresql://marlon:123@postgres:5432/parcial
+    depends_on:
+      -postgres
+    restart: always
+    ports:
+      - "5000:5000"
+
+volumes:
+  parcial_data:
