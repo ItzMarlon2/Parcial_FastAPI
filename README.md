@@ -1,4 +1,3 @@
-readme_content = """
 # PARCIAL 1 - ELECTIVA 3 - MARLON CAMPO 
 
 This project contains a basic CRUD between two entities with their respective validations, using docker to create the database in postgresQL.
