@@ -4,6 +4,7 @@ from typing import List
 from sqlalchemy.orm import Session
 from app.schemas.client_schemas import ClientRequest
 from fastapi import HTTPException
+from app.services.security import get_password_hash
 
 
 def get_all_clients(db:Session) -> List[ClientORM]:
@@ -20,11 +21,13 @@ def create_client(db:Session, client:ClientRequest)->ClientORM:
         conflict_field = 'número de teléfono' if existing_client.phone_number == client.phone_number else 'correo electrónico'
         raise HTTPException(status_code=400, detail=f"Ya existe un cliente con ese {conflict_field}.")
 
+    hashed_password = get_password_hash(client.password)
     
     db_client = ClientORM(
         full_name=client.full_name,
         phone_number= client.phone_number,
         email= client.email,
+        hashed_password=hashed_password
     )
     db.add(db_client)
     db.commit()
@@ -43,3 +46,6 @@ def delete_client(uid:int, db:Session)->bool:
     db.delete(client)
     db.commit()
     return True
+
+def get_client_by_email_repository(db: Session, email: str) -> ClientORM:
+    return db.query(ClientORM).filter(ClientORM.email == email).first()

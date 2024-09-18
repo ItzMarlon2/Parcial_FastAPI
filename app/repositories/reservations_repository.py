@@ -11,7 +11,10 @@ from fastapi import HTTPException
 def get_all_reservations(db:Session)->List[ReservationORM]:
     return db.query(ReservationORM).all()
 
-def create_reservation(db:Session, reser:ReservationRequest)->ReservationORM:
+def get_reservation_by_client(db:Session, client_id:int):
+    return db.query(ReservationORM).filter(ReservationORM.client_id == client_id).all()
+
+def create_reservation(db:Session, reser:ReservationRequest, client_id:int)->ReservationORM:
     existing_code = db.query(ReservationORM).filter(ReservationORM.reservation_code == reser.reservation_code).first()
     existing_cliente = db.query(ClientORM).filter(ClientORM.id == reser.client_id).first()
     active_reservations_count  = db.query(ReservationORM).filter(ReservationORM.client_id == reser.client_id).count()
@@ -34,7 +37,7 @@ def create_reservation(db:Session, reser:ReservationRequest)->ReservationORM:
     db_reser = ReservationORM(
         reservation_code= reser.reservation_code,
         date= reser.date,
-        client_id= reser.client_id
+        client_id= client_id
     )
     db.add(db_reser)
     db.commit()

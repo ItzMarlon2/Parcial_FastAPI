@@ -32,7 +32,15 @@
         "documentation": {}
     },
     {
-        "label": "List",
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -61,6 +69,22 @@
         "description": "typing",
         "isExtraImport": true,
         "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
         "documentation": {}
     },
     {
@@ -281,6 +305,14 @@
         "documentation": {}
     },
     {
+        "label": "get_db",
+        "importPath": "app.config.config",
+        "description": "app.config.config",
+        "isExtraImport": true,
+        "detail": "app.config.config",
+        "documentation": {}
+    },
+    {
         "label": "init_db",
         "importPath": "app.config.config",
         "description": "app.config.config",
@@ -378,6 +410,14 @@
         "documentation": {}
     },
     {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
         "label": "load_dotenv",
         "importPath": "dotenv",
         "description": "dotenv",
@@ -410,6 +450,14 @@
         "documentation": {}
     },
     {
+        "label": "ClientDTO",
+        "importPath": "app.schemas.client_schemas",
+        "description": "app.schemas.client_schemas",
+        "isExtraImport": true,
+        "detail": "app.schemas.client_schemas",
+        "documentation": {}
+    },
+    {
         "label": "ClientRequest",
         "importPath": "app.schemas.client_schemas",
         "description": "app.schemas.client_schemas",
@@ -482,11 +530,67 @@
         "documentation": {}
     },
     {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "FastAPI",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
         "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "get_password_hash",
+        "importPath": "app.services.security",
+        "description": "app.services.security",
+        "isExtraImport": true,
+        "detail": "app.services.security",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "importPath": "app.services.security",
+        "description": "app.services.security",
+        "isExtraImport": true,
+        "detail": "app.services.security",
+        "documentation": {}
+    },
+    {
+        "label": "verify_password",
+        "importPath": "app.services.security",
+        "description": "app.services.security",
+        "isExtraImport": true,
+        "detail": "app.services.security",
+        "documentation": {}
+    },
+    {
+        "label": "ALGORITHM",
+        "importPath": "app.services.security",
+        "description": "app.services.security",
+        "isExtraImport": true,
+        "detail": "app.services.security",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "importPath": "app.services.security",
+        "description": "app.services.security",
+        "isExtraImport": true,
+        "detail": "app.services.security",
         "documentation": {}
     },
     {
@@ -499,6 +603,22 @@
     },
     {
         "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
         "importPath": "datetime",
         "description": "datetime",
         "isExtraImport": true,
@@ -538,6 +658,14 @@
         "documentation": {}
     },
     {
+        "label": "OAuth2PasswordRequestForm",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
         "label": "create_client_service",
         "importPath": "app.services.client_services",
         "description": "app.services.client_services",
@@ -559,6 +687,30 @@
         "description": "app.services.client_services",
         "isExtraImport": true,
         "detail": "app.services.client_services",
+        "documentation": {}
+    },
+    {
+        "label": "get_client_by_email",
+        "importPath": "app.services.client_services",
+        "description": "app.services.client_services",
+        "isExtraImport": true,
+        "detail": "app.services.client_services",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_client",
+        "importPath": "app.services.auth_services",
+        "description": "app.services.auth_services",
+        "isExtraImport": true,
+        "detail": "app.services.auth_services",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_client",
+        "importPath": "app.services.auth_services",
+        "description": "app.services.auth_services",
+        "isExtraImport": true,
+        "detail": "app.services.auth_services",
         "documentation": {}
     },
     {
@@ -634,6 +786,38 @@
         "documentation": {}
     },
     {
+        "label": "jwt",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "JWTError",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "get_client_by_email_repository",
+        "importPath": "app.repositories.client_repository",
+        "description": "app.repositories.client_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.client_repository",
+        "documentation": {}
+    },
+    {
         "label": "create_client",
         "importPath": "app.repositories.client_repository",
         "description": "app.repositories.client_repository",
@@ -651,6 +835,14 @@
     },
     {
         "label": "get_all_clients",
+        "importPath": "app.repositories.client_repository",
+        "description": "app.repositories.client_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.client_repository",
+        "documentation": {}
+    },
+    {
+        "label": "get_client_by_email_repository",
         "importPath": "app.repositories.client_repository",
         "description": "app.repositories.client_repository",
         "isExtraImport": true,
@@ -679,6 +871,22 @@
         "description": "app.repositories.reservations_repository",
         "isExtraImport": true,
         "detail": "app.repositories.reservations_repository",
+        "documentation": {}
+    },
+    {
+        "label": "get_reservation_by_client",
+        "importPath": "app.repositories.reservations_repository",
+        "description": "app.repositories.reservations_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.reservations_repository",
+        "documentation": {}
+    },
+    {
+        "label": "CryptContext",
+        "importPath": "passlib.context",
+        "description": "passlib.context",
+        "isExtraImport": true,
+        "detail": "passlib.context",
         "documentation": {}
     },
     {
@@ -731,6 +939,24 @@
         "description": "alembic.versions.3821d729d7e3_create_table_clients_and_reservations",
         "peekOfCode": "def downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###",
         "detail": "alembic.versions.3821d729d7e3_create_table_clients_and_reservations",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.7e0bf934e0c9_create_hashed_password_column",
+        "description": "alembic.versions.7e0bf934e0c9_create_hashed_password_column",
+        "peekOfCode": "def upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('Clients', sa.Column('hashed_password', sa.String(), nullable=True))\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_column('Clients', 'hashed_password')\n    # ### end Alembic commands ###",
+        "detail": "alembic.versions.7e0bf934e0c9_create_hashed_password_column",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.7e0bf934e0c9_create_hashed_password_column",
+        "description": "alembic.versions.7e0bf934e0c9_create_hashed_password_column",
+        "peekOfCode": "def downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_column('Clients', 'hashed_password')\n    # ### end Alembic commands ###",
+        "detail": "alembic.versions.7e0bf934e0c9_create_hashed_password_column",
         "documentation": {}
     },
     {
@@ -828,7 +1054,7 @@
         "kind": 6,
         "importPath": "app.models.client_model",
         "description": "app.models.client_model",
-        "peekOfCode": "class ClientORM(Base):\n    __tablename__= 'Clients'\n    id = Column(Integer, primary_key=True, index=True)\n    full_name = Column(String, index=True)\n    phone_number = Column(String, unique=True)\n    email = Column(String, unique=True)\n    reservations = relationship(\"ReservationORM\", back_populates=\"client\")",
+        "peekOfCode": "class ClientORM(Base):\n    __tablename__= 'Clients'\n    id = Column(Integer, primary_key=True, index=True)\n    full_name = Column(String, index=True)\n    phone_number = Column(String, unique=True)\n    email = Column(String, unique=True)\n    hashed_password = Column(String)\n    reservations = relationship(\"ReservationORM\", back_populates=\"client\")",
         "detail": "app.models.client_model",
         "documentation": {}
     },
@@ -855,7 +1081,7 @@
         "kind": 2,
         "importPath": "app.repositories.client_repository",
         "description": "app.repositories.client_repository",
-        "peekOfCode": "def create_client(db:Session, client:ClientRequest)->ClientORM:\n    existing_client=db.query(ClientORM).filter(\n        (ClientORM.phone_number == client.phone_number) |\n        (ClientORM.email == client.email)\n    ).first()\n    if existing_client:\n        conflict_field = 'número de teléfono' if existing_client.phone_number == client.phone_number else 'correo electrónico'\n        raise HTTPException(status_code=400, detail=f\"Ya existe un cliente con ese {conflict_field}.\")\n    db_client = ClientORM(\n        full_name=client.full_name,",
+        "peekOfCode": "def create_client(db:Session, client:ClientRequest)->ClientORM:\n    existing_client=db.query(ClientORM).filter(\n        (ClientORM.phone_number == client.phone_number) |\n        (ClientORM.email == client.email)\n    ).first()\n    if existing_client:\n        conflict_field = 'número de teléfono' if existing_client.phone_number == client.phone_number else 'correo electrónico'\n        raise HTTPException(status_code=400, detail=f\"Ya existe un cliente con ese {conflict_field}.\")\n    hashed_password = get_password_hash(client.password)\n    db_client = ClientORM(",
         "detail": "app.repositories.client_repository",
         "documentation": {}
     },
@@ -869,11 +1095,29 @@
         "documentation": {}
     },
     {
+        "label": "get_client_by_email_repository",
+        "kind": 2,
+        "importPath": "app.repositories.client_repository",
+        "description": "app.repositories.client_repository",
+        "peekOfCode": "def get_client_by_email_repository(db: Session, email: str) -> ClientORM:\n    return db.query(ClientORM).filter(ClientORM.email == email).first()",
+        "detail": "app.repositories.client_repository",
+        "documentation": {}
+    },
+    {
         "label": "get_all_reservations",
         "kind": 2,
         "importPath": "app.repositories.reservations_repository",
         "description": "app.repositories.reservations_repository",
-        "peekOfCode": "def get_all_reservations(db:Session)->List[ReservationORM]:\n    return db.query(ReservationORM).all()\ndef create_reservation(db:Session, reser:ReservationRequest)->ReservationORM:\n    existing_code = db.query(ReservationORM).filter(ReservationORM.reservation_code == reser.reservation_code).first()\n    existing_cliente = db.query(ClientORM).filter(ClientORM.id == reser.client_id).first()\n    active_reservations_count  = db.query(ReservationORM).filter(ReservationORM.client_id == reser.client_id).count()\n    if existing_cliente is None:\n        raise HTTPException(status_code=404, detail=\"Cliente no encontrado, no se puede crear la reserva.\")\n    if active_reservations_count  >= 5:\n        raise HTTPException(status_code=400, detail=\"Se ha alcanzado el límite máximo de reservas por cliente (5 reservas activas).\")",
+        "peekOfCode": "def get_all_reservations(db:Session)->List[ReservationORM]:\n    return db.query(ReservationORM).all()\ndef get_reservation_by_client(db:Session, client_id:int):\n    return db.query(ReservationORM).filter(ReservationORM.client_id == client_id).all()\ndef create_reservation(db:Session, reser:ReservationRequest, client_id:int)->ReservationORM:\n    existing_code = db.query(ReservationORM).filter(ReservationORM.reservation_code == reser.reservation_code).first()\n    existing_cliente = db.query(ClientORM).filter(ClientORM.id == reser.client_id).first()\n    active_reservations_count  = db.query(ReservationORM).filter(ReservationORM.client_id == reser.client_id).count()\n    if existing_cliente is None:\n        raise HTTPException(status_code=404, detail=\"Cliente no encontrado, no se puede crear la reserva.\")",
+        "detail": "app.repositories.reservations_repository",
+        "documentation": {}
+    },
+    {
+        "label": "get_reservation_by_client",
+        "kind": 2,
+        "importPath": "app.repositories.reservations_repository",
+        "description": "app.repositories.reservations_repository",
+        "peekOfCode": "def get_reservation_by_client(db:Session, client_id:int):\n    return db.query(ReservationORM).filter(ReservationORM.client_id == client_id).all()\ndef create_reservation(db:Session, reser:ReservationRequest, client_id:int)->ReservationORM:\n    existing_code = db.query(ReservationORM).filter(ReservationORM.reservation_code == reser.reservation_code).first()\n    existing_cliente = db.query(ClientORM).filter(ClientORM.id == reser.client_id).first()\n    active_reservations_count  = db.query(ReservationORM).filter(ReservationORM.client_id == reser.client_id).count()\n    if existing_cliente is None:\n        raise HTTPException(status_code=404, detail=\"Cliente no encontrado, no se puede crear la reserva.\")\n    if active_reservations_count  >= 5:\n        raise HTTPException(status_code=400, detail=\"Se ha alcanzado el límite máximo de reservas por cliente (5 reservas activas).\")",
         "detail": "app.repositories.reservations_repository",
         "documentation": {}
     },
@@ -882,7 +1126,7 @@
         "kind": 2,
         "importPath": "app.repositories.reservations_repository",
         "description": "app.repositories.reservations_repository",
-        "peekOfCode": "def create_reservation(db:Session, reser:ReservationRequest)->ReservationORM:\n    existing_code = db.query(ReservationORM).filter(ReservationORM.reservation_code == reser.reservation_code).first()\n    existing_cliente = db.query(ClientORM).filter(ClientORM.id == reser.client_id).first()\n    active_reservations_count  = db.query(ReservationORM).filter(ReservationORM.client_id == reser.client_id).count()\n    if existing_cliente is None:\n        raise HTTPException(status_code=404, detail=\"Cliente no encontrado, no se puede crear la reserva.\")\n    if active_reservations_count  >= 5:\n        raise HTTPException(status_code=400, detail=\"Se ha alcanzado el límite máximo de reservas por cliente (5 reservas activas).\")\n    if existing_code:\n        raise HTTPException(status_code=400, detail=f\"Ya existe una reservación con ese código: {existing_code.reservation_code}.\")",
+        "peekOfCode": "def create_reservation(db:Session, reser:ReservationRequest, client_id:int)->ReservationORM:\n    existing_code = db.query(ReservationORM).filter(ReservationORM.reservation_code == reser.reservation_code).first()\n    existing_cliente = db.query(ClientORM).filter(ClientORM.id == reser.client_id).first()\n    active_reservations_count  = db.query(ReservationORM).filter(ReservationORM.client_id == reser.client_id).count()\n    if existing_cliente is None:\n        raise HTTPException(status_code=404, detail=\"Cliente no encontrado, no se puede crear la reserva.\")\n    if active_reservations_count  >= 5:\n        raise HTTPException(status_code=400, detail=\"Se ha alcanzado el límite máximo de reservas por cliente (5 reservas activas).\")\n    if existing_code:\n        raise HTTPException(status_code=400, detail=f\"Ya existe una reservación con ese código: {existing_code.reservation_code}.\")",
         "detail": "app.repositories.reservations_repository",
         "documentation": {}
     },
@@ -918,7 +1162,7 @@
         "kind": 2,
         "importPath": "app.routes.client_routes",
         "description": "app.routes.client_routes",
-        "peekOfCode": "def delete_client(uid:int, db:Session = Depends(get_db)):\n    success = delete_client_service(uid, db)\n    print(success)\n    if not success:\n        raise HTTPException(status_code=404, detail=\"CLIENTE NO ENCONTRADO\")\n    return {\"detail\": \"Cliente Eliminado Correctamente\"}",
+        "peekOfCode": "def delete_client(uid:int, db:Session = Depends(get_db)):\n    success = delete_client_service(uid, db)\n    print(success)\n    if not success:\n        raise HTTPException(status_code=404, detail=\"CLIENTE NO ENCONTRADO\")\n    return {\"detail\": \"Cliente Eliminado Correctamente\"}\n@router.get(\"/me\", response_model=ClientDTO)\nasync def read_client_me(current_client : ClientDTO = Depends(get_current_client)):\n    return current_client\n@router.post(\"/token\")",
         "detail": "app.routes.client_routes",
         "documentation": {}
     },
@@ -936,7 +1180,7 @@
         "kind": 2,
         "importPath": "app.routes.reservation_routes",
         "description": "app.routes.reservation_routes",
-        "peekOfCode": "def get_reservations(db:Session = Depends(get_db)):\n    resers = get_all_reservations_service(db)\n    if not resers:\n        raise HTTPException(status_code=404, detail=\"NO HAY RESERVACIONES\")\n    return resers\n@router.post('/reservations', response_model=ReservationDTO)\ndef create_reservation(reser:ReservationRequest, db:Session = Depends(get_db)):\n    create_reservation = create_reservation_service(reser, db)\n    if not create_reservation:\n        raise HTTPException(status_code=404, detail=\"NO SE HA PODIDO CREAR LA RESERVACIÓN\")",
+        "peekOfCode": "def get_reservations(db:Session = Depends(get_db)):\n    resers = get_all_reservations_service(db)\n    if not resers:\n        raise HTTPException(status_code=404, detail=\"NO HAY RESERVACIONES\")\n    return resers\n@router.post('/reservations', response_model=ReservationDTO)\ndef create_reservation(reser:ReservationRequest, db:Session = Depends(get_db), current_client: ClientDTO = Depends(get_current_client)):\n    create_reservation = create_reservation_service(reser, db, current_client.id)\n    if not create_reservation:\n        raise HTTPException(status_code=404, detail=\"NO SE HA PODIDO CREAR LA RESERVACIÓN\")",
         "detail": "app.routes.reservation_routes",
         "documentation": {}
     },
@@ -945,7 +1189,7 @@
         "kind": 2,
         "importPath": "app.routes.reservation_routes",
         "description": "app.routes.reservation_routes",
-        "peekOfCode": "def create_reservation(reser:ReservationRequest, db:Session = Depends(get_db)):\n    create_reservation = create_reservation_service(reser, db)\n    if not create_reservation:\n        raise HTTPException(status_code=404, detail=\"NO SE HA PODIDO CREAR LA RESERVACIÓN\")\n    return create_reservation\n@router.delete('reservations/{uid}', response_model=dict)\ndef delete_reservation(uid:int, db:Session = Depends(get_db)):\n    success = delete_reservation_service(uid, db)\n    if not success:\n        raise HTTPException(status_code=404, detail=\"RESERVACIÓN NO ENCONTRADA\")",
+        "peekOfCode": "def create_reservation(reser:ReservationRequest, db:Session = Depends(get_db), current_client: ClientDTO = Depends(get_current_client)):\n    create_reservation = create_reservation_service(reser, db, current_client.id)\n    if not create_reservation:\n        raise HTTPException(status_code=404, detail=\"NO SE HA PODIDO CREAR LA RESERVACIÓN\")\n    return create_reservation\n@router.delete('reservations/{uid}', response_model=dict)\ndef delete_reservation(uid:int, db:Session = Depends(get_db)):\n    success = delete_reservation_service(uid, db)\n    if not success:\n        raise HTTPException(status_code=404, detail=\"RESERVACIÓN NO ENCONTRADA\")",
         "detail": "app.routes.reservation_routes",
         "documentation": {}
     },
@@ -963,7 +1207,7 @@
         "kind": 5,
         "importPath": "app.routes.reservation_routes",
         "description": "app.routes.reservation_routes",
-        "peekOfCode": "router = APIRouter()\n@router.get('/reservations', response_model=List[ReservationDTO])\ndef get_reservations(db:Session = Depends(get_db)):\n    resers = get_all_reservations_service(db)\n    if not resers:\n        raise HTTPException(status_code=404, detail=\"NO HAY RESERVACIONES\")\n    return resers\n@router.post('/reservations', response_model=ReservationDTO)\ndef create_reservation(reser:ReservationRequest, db:Session = Depends(get_db)):\n    create_reservation = create_reservation_service(reser, db)",
+        "peekOfCode": "router = APIRouter()\n@router.get('/reservations', response_model=List[ReservationDTO])\ndef get_reservations(db:Session = Depends(get_db)):\n    resers = get_all_reservations_service(db)\n    if not resers:\n        raise HTTPException(status_code=404, detail=\"NO HAY RESERVACIONES\")\n    return resers\n@router.post('/reservations', response_model=ReservationDTO)\ndef create_reservation(reser:ReservationRequest, db:Session = Depends(get_db), current_client: ClientDTO = Depends(get_current_client)):\n    create_reservation = create_reservation_service(reser, db, current_client.id)",
         "detail": "app.routes.reservation_routes",
         "documentation": {}
     },
@@ -972,7 +1216,7 @@
         "kind": 6,
         "importPath": "app.schemas.client_schemas",
         "description": "app.schemas.client_schemas",
-        "peekOfCode": "class ClientRequest(BaseModel):\n    full_name: str = Field(..., min_length=3)\n    phone_number: str\n    email: EmailStr\nclass ClientDTO(BaseModel):\n    id: int\n    full_name: str\n    phone_number: str\n    email: EmailStr\n    class Config:",
+        "peekOfCode": "class ClientRequest(BaseModel):\n    full_name: str = Field(..., min_length=3)\n    phone_number: str\n    email: EmailStr\n    password: str\nclass ClientDTO(BaseModel):\n    id: int\n    full_name: str\n    phone_number: str\n    email: EmailStr",
         "detail": "app.schemas.client_schemas",
         "documentation": {}
     },
@@ -1008,7 +1252,7 @@
         "kind": 2,
         "importPath": "app.services.client_services",
         "description": "app.services.client_services",
-        "peekOfCode": "def get_all_clients_service(db:Session):\n    return get_all_clients(db)\ndef create_client_service(db:Session, client:ClientRequest):\n    return create_client(client, db)\ndef delete_client_service(uid:int, db:Session):\n    return delete_client(uid, db)",
+        "peekOfCode": "def get_all_clients_service(db:Session):\n    return get_all_clients(db)\ndef create_client_service(db:Session, client:ClientRequest):\n    return create_client(client, db)\ndef delete_client_service(uid:int, db:Session):\n    return delete_client(uid, db)\nasync def get_client_by_email(db: Session, email: str):\n    return get_client_by_email_repository(db, email)",
         "detail": "app.services.client_services",
         "documentation": {}
     },
@@ -1017,7 +1261,7 @@
         "kind": 2,
         "importPath": "app.services.client_services",
         "description": "app.services.client_services",
-        "peekOfCode": "def create_client_service(db:Session, client:ClientRequest):\n    return create_client(client, db)\ndef delete_client_service(uid:int, db:Session):\n    return delete_client(uid, db)",
+        "peekOfCode": "def create_client_service(db:Session, client:ClientRequest):\n    return create_client(client, db)\ndef delete_client_service(uid:int, db:Session):\n    return delete_client(uid, db)\nasync def get_client_by_email(db: Session, email: str):\n    return get_client_by_email_repository(db, email)",
         "detail": "app.services.client_services",
         "documentation": {}
     },
@@ -1026,7 +1270,7 @@
         "kind": 2,
         "importPath": "app.services.client_services",
         "description": "app.services.client_services",
-        "peekOfCode": "def delete_client_service(uid:int, db:Session):\n    return delete_client(uid, db)",
+        "peekOfCode": "def delete_client_service(uid:int, db:Session):\n    return delete_client(uid, db)\nasync def get_client_by_email(db: Session, email: str):\n    return get_client_by_email_repository(db, email)",
         "detail": "app.services.client_services",
         "documentation": {}
     },
@@ -1035,7 +1279,16 @@
         "kind": 2,
         "importPath": "app.services.reservation_services",
         "description": "app.services.reservation_services",
-        "peekOfCode": "def get_all_reservations_service(db:Session):\n    return get_all_reservations(db)\ndef create_reservation_service(db:Session, reser:ReservationRequest):\n    return create_reservation(reser, db)\ndef delete_reservation_service(uid:int, db:Session):\n    return delete_reservation(uid, db)",
+        "peekOfCode": "def get_all_reservations_service(db:Session):\n    return get_all_reservations(db)\ndef get_reservation_by_client_service(db:Session, client_id:int):\n    return get_reservation_by_client(db, client_id)\ndef create_reservation_service(db:Session, reser:ReservationRequest, client_id: int):\n    return create_reservation(reser, db, client_id)\ndef delete_reservation_service(uid:int, db:Session):\n    return delete_reservation(uid, db)",
+        "detail": "app.services.reservation_services",
+        "documentation": {}
+    },
+    {
+        "label": "get_reservation_by_client_service",
+        "kind": 2,
+        "importPath": "app.services.reservation_services",
+        "description": "app.services.reservation_services",
+        "peekOfCode": "def get_reservation_by_client_service(db:Session, client_id:int):\n    return get_reservation_by_client(db, client_id)\ndef create_reservation_service(db:Session, reser:ReservationRequest, client_id: int):\n    return create_reservation(reser, db, client_id)\ndef delete_reservation_service(uid:int, db:Session):\n    return delete_reservation(uid, db)",
         "detail": "app.services.reservation_services",
         "documentation": {}
     },
@@ -1044,7 +1297,7 @@
         "kind": 2,
         "importPath": "app.services.reservation_services",
         "description": "app.services.reservation_services",
-        "peekOfCode": "def create_reservation_service(db:Session, reser:ReservationRequest):\n    return create_reservation(reser, db)\ndef delete_reservation_service(uid:int, db:Session):\n    return delete_reservation(uid, db)",
+        "peekOfCode": "def create_reservation_service(db:Session, reser:ReservationRequest, client_id: int):\n    return create_reservation(reser, db, client_id)\ndef delete_reservation_service(uid:int, db:Session):\n    return delete_reservation(uid, db)",
         "detail": "app.services.reservation_services",
         "documentation": {}
     },
@@ -1055,6 +1308,69 @@
         "description": "app.services.reservation_services",
         "peekOfCode": "def delete_reservation_service(uid:int, db:Session):\n    return delete_reservation(uid, db)",
         "detail": "app.services.reservation_services",
+        "documentation": {}
+    },
+    {
+        "label": "verify_password",
+        "kind": 2,
+        "importPath": "app.services.security",
+        "description": "app.services.security",
+        "peekOfCode": "def verify_password(plain_password, hashed_password):\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_password_hash(passowrd):\n    return pwd_context.hash(passowrd)\ndef create_access_token(data: dict, expires_delta: timedelta = None):\n    to_encode = data.copy()\n    if expires_delta:\n        expire = datetime.utcnow() + expires_delta\n    else :\n        expire = datetime.utcnow() + timedelta(minutes=15)",
+        "detail": "app.services.security",
+        "documentation": {}
+    },
+    {
+        "label": "get_password_hash",
+        "kind": 2,
+        "importPath": "app.services.security",
+        "description": "app.services.security",
+        "peekOfCode": "def get_password_hash(passowrd):\n    return pwd_context.hash(passowrd)\ndef create_access_token(data: dict, expires_delta: timedelta = None):\n    to_encode = data.copy()\n    if expires_delta:\n        expire = datetime.utcnow() + expires_delta\n    else :\n        expire = datetime.utcnow() + timedelta(minutes=15)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, ALGORITHM)",
+        "detail": "app.services.security",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "kind": 2,
+        "importPath": "app.services.security",
+        "description": "app.services.security",
+        "peekOfCode": "def create_access_token(data: dict, expires_delta: timedelta = None):\n    to_encode = data.copy()\n    if expires_delta:\n        expire = datetime.utcnow() + expires_delta\n    else :\n        expire = datetime.utcnow() + timedelta(minutes=15)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, ALGORITHM)\n    return encoded_jwt",
+        "detail": "app.services.security",
+        "documentation": {}
+    },
+    {
+        "label": "pwd_context",
+        "kind": 5,
+        "importPath": "app.services.security",
+        "description": "app.services.security",
+        "peekOfCode": "pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\nSECRET_KEY = \"millavesecreta\"\nALGORITHM = \"HS256\"\nACCESS_TOKEN_EXPIRE_MINUTES = 30\ndef verify_password(plain_password, hashed_password):\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_password_hash(passowrd):\n    return pwd_context.hash(passowrd)\ndef create_access_token(data: dict, expires_delta: timedelta = None):\n    to_encode = data.copy()",
+        "detail": "app.services.security",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "app.services.security",
+        "description": "app.services.security",
+        "peekOfCode": "SECRET_KEY = \"millavesecreta\"\nALGORITHM = \"HS256\"\nACCESS_TOKEN_EXPIRE_MINUTES = 30\ndef verify_password(plain_password, hashed_password):\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_password_hash(passowrd):\n    return pwd_context.hash(passowrd)\ndef create_access_token(data: dict, expires_delta: timedelta = None):\n    to_encode = data.copy()\n    if expires_delta:",
+        "detail": "app.services.security",
+        "documentation": {}
+    },
+    {
+        "label": "ALGORITHM",
+        "kind": 5,
+        "importPath": "app.services.security",
+        "description": "app.services.security",
+        "peekOfCode": "ALGORITHM = \"HS256\"\nACCESS_TOKEN_EXPIRE_MINUTES = 30\ndef verify_password(plain_password, hashed_password):\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_password_hash(passowrd):\n    return pwd_context.hash(passowrd)\ndef create_access_token(data: dict, expires_delta: timedelta = None):\n    to_encode = data.copy()\n    if expires_delta:\n        expire = datetime.utcnow() + expires_delta",
+        "detail": "app.services.security",
+        "documentation": {}
+    },
+    {
+        "label": "ACCESS_TOKEN_EXPIRE_MINUTES",
+        "kind": 5,
+        "importPath": "app.services.security",
+        "description": "app.services.security",
+        "peekOfCode": "ACCESS_TOKEN_EXPIRE_MINUTES = 30\ndef verify_password(plain_password, hashed_password):\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_password_hash(passowrd):\n    return pwd_context.hash(passowrd)\ndef create_access_token(data: dict, expires_delta: timedelta = None):\n    to_encode = data.copy()\n    if expires_delta:\n        expire = datetime.utcnow() + expires_delta\n    else :",
+        "detail": "app.services.security",
         "documentation": {}
     },
     {

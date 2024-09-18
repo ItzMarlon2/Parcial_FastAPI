@@ -10,6 +10,7 @@ class ClientORM(Base):
     full_name = Column(String, index=True)
     phone_number = Column(String, unique=True)
     email = Column(String, unique=True)
+    hashed_password = Column(String)
     reservations = relationship("ReservationORM", back_populates="client")
     
 
